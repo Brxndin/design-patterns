@@ -3,7 +3,8 @@
         "dev-decorator": "tsx watch src/Decorator/index.ts",
         "dev-observer": "tsx watch src/Observer/index.ts",
         "dev-strategy": "tsx watch src/Strategy/index.ts",
-        "dev-factory-method": "tsx watch src/Factory-Method/index.ts"
+        "dev-factory-method": "tsx watch src/Factory-Method/index.ts",
+        "dev-abstract-factory": "tsx watch src/Abstract-Factory/index.ts"
     },
     "devDependencies": {
         "@types/node": "^22.20.2",
