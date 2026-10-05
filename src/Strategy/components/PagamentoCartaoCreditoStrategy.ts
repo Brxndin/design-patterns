@@ -2,7 +2,9 @@ import { Pagamento } from "../interfaces/Pagamento";
 
 export class PagamentoCartaoCreditoStrategy implements Pagamento {
     public processarPagamento(valorTotal: number): boolean {
-        console.log(`Chave PIX gerada: (54) 99999-9999. Valor sem taxas adicionais: ${valorTotal}`);
+        let novoValor = valorTotal + (valorTotal * 0.025);
+        
+        console.log(`Novo valor com 2,5% de taxa: ${novoValor}`);
 
         return true;
     }

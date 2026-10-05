@@ -2,9 +2,7 @@ import { Pagamento } from "../interfaces/Pagamento";
 
 export class PagamentoPixStrategy implements Pagamento {
     public processarPagamento(valorTotal: number): boolean {
-        let novoValor = valorTotal + (valorTotal * 0.025);
-        
-        console.log(`Novo valor com 2,5% de taxa: ${novoValor}`);
+        console.log(`Chave PIX gerada: (54) 99999-9999. Valor sem taxas adicionais: ${valorTotal}`);
 
         return true;
     }
