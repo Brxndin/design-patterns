@@ -5,7 +5,8 @@
         "dev-strategy": "tsx watch src/Strategy/index.ts",
         "dev-factory-method": "tsx watch src/Factory-Method/index.ts",
         "dev-abstract-factory": "tsx watch src/Abstract-Factory/index.ts",
-        "dev-singleton": "tsx watch src/Singleton/index.ts"
+        "dev-singleton": "tsx watch src/Singleton/index.ts",
+        "dev-state": "tsx watch src/State/index.ts"
     },
     "devDependencies": {
         "@types/node": "^22.20.2",
